@@ -527,10 +527,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     btaudio_offload_if \
     audio.bluetooth_qti.default \
-    audio.primary.bengal \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
-    liba2dpoffload \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -542,28 +540,19 @@ PRODUCT_PACKAGES += \
     libaudioalsa \
     libaudioconfigstore \
     libaudioparsers \
-    libbatterylistener \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
-    libcirrusspkrprot \
-    libcomprcapture \
     libdrc \
-    libexthwplugin \
     libfastcrc \
     libgcs-calwrapper \
     libgcs-ipc \
     libgcs-osal \
     libgcs \
-    libhdmiedid \
     libhdmipassthru \
-    libhfp \
     liblistensoundmodel2 \
     libmulawdec \
     libqtigef \
     libsmwrapper \
-    libsndmonitor \
-    libspkrprot \
-    libssrec \
     libsurround_3mic_proc \
     libwfdcommonutils_proprietary \
     libwfddisplayconfig_proprietary \
@@ -1056,7 +1045,6 @@ PRODUCT_PACKAGES += \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
-    qti-telephony-common \
     vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.ims.connection-V1.0-java \
     vendor.qti.ims.factory-V2.0-java \
